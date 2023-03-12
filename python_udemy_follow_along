@@ -1,0 +1,107 @@
+# Numbers: Simple Arithmetic
+# Write an expression that equals 100. 
+# For example 50+50   or 110-10 . 
+# See if you can use more than one arithmetic operator! Write only one expression and submit only one line of code.
+# If your expression results in 100, then you should see a success message after you test out your solution :)
+
+# print(99 + 1 )   
+
+# my_dogs = 2
+
+# a = 10
+# print(type(a))
+# my_income = 100
+# tax_rate = 0.1
+# my_taxes = my_income * tax_rate
+
+# print(my_taxes)
+
+# print('hello \nworld')
+
+# print('hello\tworld')
+# print(len('hello'))
+
+
+# mystring = 'hello world'
+
+# print(mystring[3])
+# print(mystring[-3])
+# print(mystring[2:])
+
+# print(mystring[::2])
+# print(mystring[::-1])
+
+# String Slicing
+# Use string slicing to grab the word 'ink'  from inside 'tinker' 
+# For example, 'education'[3:6]  returns 'cat' 
+# Remember that when slicing you only go up to but not including the end index.
+# You should only write one line of code for this. Do not assign a variable name to the string.
+
+# "tinker"[1:4]
+
+# letter = 'z' 
+# print(letter * 10)
+
+# x = 'hi this is a string'
+
+# print(x.split('i'))
+
+# # x.upper()
+# print(x)
+
+# print('this is a string {}'.format('inserted'))
+
+# print('the {2} {1} {0}'.format('fox', 'brown', 'quick'))
+
+# print('the {q} {b} {f}'.format(f ='fox', b ='brown', q='quick'))
+
+# result = 100 / 777
+# ##r is the location of the variable
+# ## 1 is the amount of spaces and numbers to the left 
+# ## 3 is the number of spaces and numbers to the right
+# print('the result was {r:1.3f}'.format(r = result))
+
+
+# name = 'jose'
+
+# print(f'hello, his name is {name}')
+
+# name = 'sam'
+# age = 3
+
+# print(f"{name} is {age} years old.")
+
+# my_list =[1,2,3]
+
+# my_list3 = ['string', 100, 23.2]
+
+# print(my_list)
+
+# print(my_list[0])
+# print(my_list + my_list3)
+
+
+# new_list = my_list3 + my_list
+
+# new_list[0] = 'Divante'
+# print(new_list)
+
+# new_list.append('seven')
+
+# print(new_list)
+
+# popped_item = new_list.pop()
+
+# print(popped_item)
+
+# index_poped_item = new_list.pop(2)
+
+# print(index_poped_item)
+
+new_list = ['a', 'e', 'x', 'b', 'c']
+num_list = [4,1,8,3]
+
+new_list.sort()
+print(new_list)
+
+
