@@ -98,10 +98,142 @@
 
 # print(index_poped_item)
 
-new_list = ['a', 'e', 'x', 'b', 'c']
-num_list = [4,1,8,3]
+# new_list = ['a', 'e', 'x', 'b', 'c']
+# num_list = [4,1,8,3]
 
-new_list.sort()
-print(new_list)
+# new_list.sort()
+# print(new_list)
+
+# new_list.reverse()
+# print(new_list)
+
+# my_dict = {'key1': 'value1', 'key2': 'value2'}
+# print(my_dict['key1'])
+
+# prices_lookup = {'apple': 2.99, 'oranges': 1.99, 'milk': 5.80}
+
+# print(prices_lookup['apple'])
+
+# d = {'k1':123, 'k2':[0,1,2], 'k3': {'insideKey':100}}
+
+# print(d['k2'][2])
+
+# print(d['k3']['insideKey'])
+
+# d = {'key1':['a','b','c']}
+
+# mylist = d['key1']
+# print(mylist)
+# letter = mylist[2]
+# print(letter)
+# letter.upper()
+# print(letter.upper())
+# print(d['key1'][2].upper())
+
+# d = {'k1': 100, 'k2': 200}
+
+# d['k3'] = 300
+
+# print(d)
+
+# d['k1'] = 'new value'
+# print(d)
+
+# d = {'k1': 100, 'k2': 200, 'k3': 300}
+
+# print(d.keys())
+
+# print(d.values())
+
+# print(d.items())
+
+# t = (1,2,3)
+# mylist = [1,2,3]
+
+# print(len(t))
+
+# print(t[-1])
+
+# t =('a','b','c','a')
+
+# print(t.count('a'))
+# print(t.index('a'))
+
+# print(t.index('b'))
+
+# mylist[0] = 'new'
+
+# t[0] = 'new'
+
+#tuples are for passing around objects and making sure they don't change
+
+# myset = set()
+# print(myset)
+
+# myset.add(1)
+
+# print(myset)
+
+# myset.add(2)
+
+# print(myset)
+# myset.add(2)
+# print(myset)
+# mylist = [1,1,1,1,1,2,2,2,2,2,23,3,3,3,3]
+# print(set(mylist))
+
+# True
+# False
+
+# type(False)
+# print(1>2)
+# print(1 == 1)
+
+# b = None
+# print(type(b))
+
+# myfile = open('python-practice-text.txt')
+
+# # myfile = open('whops_wrong_file')
+# print(myfile.read())
+
+# print(myfile.read())
+# myfile.seek(0)
+
+# contents = myfile.read()
+# print(contents)
+# myfile.seek(0)
+
+# print(myfile.readlines())
+# ##opens the file as a variable
+# with open('python-practice-text.txt') as my_new_file:
+#     contents = my_new_file.read()
+#     print(contents)
+ 
+# # with open('python-practice-text.txt', mode='r') as myfile:
+# #     contents = myfile.read()
+
+# #     print(contents)
+
+# # with open('python-practice-text.txt', mode ='r') as f:
+# #     print(f.read())
+
+# # with open('python-practice-text.txt', mode='a') as f:
+# #     f.write('\nFOUR ON FOURTH')
+
+# # with open('python-practice-text.txt', mode='r') as myfile:
+# #     myfile.seek(0)
+    
+    
+# #     print(myfile.read())
+
+# with open('my_new_file_from_python', mode= 'w') as f:
+#     f.write('I created this file from python')
+
+# with open('my_new_file_from_python', mode= 'r') as f:
+#     print(f.read())
+
+# f.close()
+# my_new_file.close()
 
 
