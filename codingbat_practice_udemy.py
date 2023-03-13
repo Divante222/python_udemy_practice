@@ -180,3 +180,62 @@ def front_times(str, n):
 def string_bits(str):
   return str[::2]
 
+# Given a non-empty string like "Code" return a 
+# string like "CCoCodCode".
+
+def string_splosion(str):
+  new_string = ''
+  for i in range(len(str)+1 ):
+    new_string += str[:i]
+    
+  return new_string
+
+# Given an array of ints, return the number of 9's in the array.
+
+def array_count9(nums):
+  count = 0
+  for i in nums:
+    if i == 9:
+      count+= 1
+  return count
+
+# Given an array of ints, return True if one of the first 
+# 4 elements in the array is a 9. The array length may be 
+# less than 4.
+
+def array_front9(nums):
+  if len(nums) > 3:
+    for i in range(4):
+      if nums[i] == 9:
+        return True
+  else: 
+    for j in range(len(nums)):
+      if nums[j] == 9:
+        return True
+      
+  return False
+
+
+# Given an array of ints, return True if the sequence of numbers
+# 1, 2, 3 appears in the array somewhere.
+
+def array123(nums):
+  for i in range(len(nums)):
+    if i + 2 < len(nums):
+      if nums[i] == 1 and nums[i+1] == 2 and nums[i+2] ==3:
+        return True
+  return False
+
+# Given a string name, e.g. "Bob", return a greeting of the 
+# form "Hello Bob!".
+
+def hello_name(name):
+  return 'Hello ' + name + '!'
+
+
+# Given two strings, a and b, return the result of putting them 
+# together in the order abba, e.g. "Hi" and "Bye" returns 
+# "HiByeByeHi".
+
+def make_abba(a, b):
+  return a +b + b + a

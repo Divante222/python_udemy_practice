@@ -233,7 +233,20 @@
 # with open('my_new_file_from_python', mode= 'r') as f:
 #     print(f.read())
 
-# f.close()
-# my_new_file.close()
+# # f.close()
+# # my_new_file.close()
 
+# 1 < 2
 
+# 2 < 3
+# print(1 < 2 >3)
+
+# print(1 < 2 and 2 < 3)
+
+# print( 'h' == 'h') and (2 == 2)
+
+# print(100 == 1 or 2 == 200)
+
+# print(not(1 == 1))
+
+# print(not(400 > 5000))
