@@ -265,3 +265,53 @@ def make_out_word(out, word):
 def extra_end(str):
   return str[len(str)-2: len(str)] * 3
  
+
+# def first_two(str):
+#   first_chars = str[:2]
+#   return first_chars * 3
+
+# print(first_two('Hello'))
+
+#Given a string of even length, return the first half. So the string "WooHoo" yields "Woo".
+def first_half(str):
+  the_size = len(str) /2
+  
+  return str[:the_size]
+
+def without_end(str):
+  the_string = str[1:]
+  the_string = the_string[:len(the_string)]
+  return the_string
+
+print(without_end('Hello'))
+
+# Given a string, return a version without the first and last char, so "Hello" 
+# yields "ell". The string length will be at least 2.
+
+def without_end(str):
+  the_string = str[1:]
+  the_string = the_string[:len(the_string) -1]
+  return the_string
+
+# Given 2 strings, a and b, return a string of the form short+long+short, with the shorter 
+# string on the outside and the longer string on the inside. The strings will not be the same 
+# length, but they may be empty (length 0).
+
+def combo_string(a, b):
+  if len(a) > len(b):
+    return b + a + b
+  else:
+    return a + b+ a
+  
+  # Given 2 strings, return their concatenation, except omit the first char of each. 
+  # The strings will be at least length 1.
+
+def non_start(a, b):
+  return a[1:] + b[1:]
+
+# Given a string, return a "rotated left 2" version where the first 2 chars are moved to the end. 
+# The string length will be at least 2.
+
+def left2(str):
+  two_characters = str[:2]
+  return str[2:] + two_characters
