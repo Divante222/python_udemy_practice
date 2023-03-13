@@ -121,3 +121,62 @@ def not_string(str):
     return 'not ' + str
   elif str[0:3] == 'not':
     return str
+  
+# Given a non-empty string and an int n, return a new string 
+# where the char at index n has been removed. The value of n 
+# will be a valid index of a char in the original string 
+# (i.e. n will be in the range 0..len(str)-1 inclusive).
+
+def missing_char(str, n): 
+  if n != 0:
+    new_string = str[0:n] + str[n+1:]
+    return new_string
+  if n == 0:
+    return str[n+1:]
+  
+# Given a string, return a new string where the first 
+# and last chars have been exchanged.
+
+def front_back(str):
+  if len(str) == 1:
+    return str
+  elif len(str) == 2:
+    return str[len(str) -1] + str[0]
+  elif len(str) > 2:
+    return str[len(str) -1] + str[1:len(str)-1] + str[0]
+  else:
+    return str
+  
+#   Given a string, we'll say that the front is the first 3 chars
+#   of the string. If the string length is less than 3, the front 
+#   is whatever is there. Return a new string which is 3 copies of 
+#   the front.
+
+def front3(str):
+  if len(str) < 3:
+    return str * 3
+  else:
+    return str[:3] * 3
+  
+# Given a string and a non-negative int n, return a larger 
+# string that is n copies of the original string.
+
+def string_times(str, n):
+  return str * n
+
+# Given a string and a non-negative int n, we'll say that the 
+# front of the string is the first 3 chars, or whatever is there 
+# if the string is less than length 3. Return n copies of the front;
+
+def front_times(str, n):
+  if len(str) < 3:
+    return str * n
+  else:
+    return str[:3] * n
+  
+#   Given a string, return a new string made of every other char 
+#   starting with the first, so "Hello" yields "Hlo".
+
+def string_bits(str):
+  return str[::2]
+
